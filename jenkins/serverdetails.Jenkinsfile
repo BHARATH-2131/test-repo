@@ -16,7 +16,6 @@ pipeline {
                 sh '''
                     hostname
                     df -h
-                    date
                 '''
             }
         }
